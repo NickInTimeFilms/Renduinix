@@ -33,20 +33,20 @@ We will use an NPN transistor to physically NOT (invert) the data and use some r
     Arduino 5V pin  ->  1k resistor   -> NPN Collector <- Arduino RX Pin 0    (This is the Output to Arduino)
     Arduino Gnd pin ->                   NPN Emitter   <- Pin D2-7 Ign Gnd(-) (Negitive Rail)
 
-Core Code
+  Core Code
 - RenixComm V 0.3
 - First incarnation January 7th, 2012
 - This revision Jan 17th, 2012 (Subrevision 24)
 - Phil Andrews 2011, 2012
 - Thanks to Kes for help with the code
 
-Additional Code
+  Additional Code
 - Renduinix v0.72
 - Created July 13th, 2016 (v0.1)
 - by Nick Risley
 - Modified September 27th, 2016
 
-Update Log:
+  Update Log:
 - v0.1 Modified core code to display predetermined outputs on a 16x2 display
 - v0.2 Interfaced buttons to cycle through a sensor array
 - v0.3 Updated calculations to show proper, added more data points, and debounced button presses
@@ -56,3 +56,4 @@ Update Log:
 - v0.7 Added EEPROM presets and reset, revamped vehicle selection, released Alpha Models
     - 0.71 Fixed Color and Software Info Menus
     - 0.72 Fixed Vehicle Selection Menu
+
